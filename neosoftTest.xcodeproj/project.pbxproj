@@ -7,27 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6CBBC343431D5054F087F003 /* Pods_neosoftTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F03EEDD7BFFE2E4AB8332EE9 /* Pods_neosoftTest.framework */; };
 		DC1FF13A2AEFB2DD004BFFFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1FF1392AEFB2DD004BFFFF /* AppDelegate.swift */; };
 		DC1FF13C2AEFB2DD004BFFFF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1FF13B2AEFB2DD004BFFFF /* SceneDelegate.swift */; };
-		DC1FF13E2AEFB2DD004BFFFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1FF13D2AEFB2DD004BFFFF /* ViewController.swift */; };
 		DC1FF1412AEFB2DD004BFFFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC1FF13F2AEFB2DD004BFFFF /* Main.storyboard */; };
 		DC1FF1432AEFB2DE004BFFFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC1FF1422AEFB2DE004BFFFF /* Assets.xcassets */; };
 		DC1FF1462AEFB2DE004BFFFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC1FF1442AEFB2DE004BFFFF /* LaunchScreen.storyboard */; };
+		DC1FF1522AEFD329004BFFFF /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1FF1512AEFD329004BFFFF /* WeatherData.swift */; };
+		DC1FF1542AEFD33B004BFFFF /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1FF1532AEFD33B004BFFFF /* WeatherService.swift */; };
+		DC1FF1562AEFD352004BFFFF /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1FF1552AEFD352004BFFFF /* WeatherViewModel.swift */; };
+		DC1FF15A2AF10E15004BFFFF /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1FF1592AF10E15004BFFFF /* WeatherViewController.swift */; };
+		DC1FF15C2AF10E67004BFFFF /* CityInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1FF15B2AF10E67004BFFFF /* CityInputViewController.swift */; };
+		DC1FF1642AF1479A004BFFFF /* neosoftTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1FF1632AF1479A004BFFFF /* neosoftTestTests.swift */; };
+		DC1FF16B2AF147DE004BFFFF /* WeatherViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1FF16A2AF147DE004BFFFF /* WeatherViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		DC1FF1652AF1479A004BFFFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC1FF12E2AEFB2DD004BFFFF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC1FF1352AEFB2DD004BFFFF;
+			remoteInfo = neosoftTest;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		63F5A01ACAE2E74FA325E9DE /* Pods-neosoftTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neosoftTest.release.xcconfig"; path = "Target Support Files/Pods-neosoftTest/Pods-neosoftTest.release.xcconfig"; sourceTree = "<group>"; };
 		DC1FF1362AEFB2DD004BFFFF /* neosoftTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = neosoftTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC1FF1392AEFB2DD004BFFFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC1FF13B2AEFB2DD004BFFFF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DC1FF13D2AEFB2DD004BFFFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DC1FF1402AEFB2DD004BFFFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC1FF1422AEFB2DE004BFFFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC1FF1452AEFB2DE004BFFFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC1FF1472AEFB2DE004BFFFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC1FF1512AEFD329004BFFFF /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		DC1FF1532AEFD33B004BFFFF /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		DC1FF1552AEFD352004BFFFF /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		DC1FF1592AF10E15004BFFFF /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		DC1FF15B2AF10E67004BFFFF /* CityInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityInputViewController.swift; sourceTree = "<group>"; };
+		DC1FF1612AF1479A004BFFFF /* neosoftTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = neosoftTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC1FF1632AF1479A004BFFFF /* neosoftTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = neosoftTestTests.swift; sourceTree = "<group>"; };
+		DC1FF16A2AF147DE004BFFFF /* WeatherViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModelTests.swift; sourceTree = "<group>"; };
+		F03EEDD7BFFE2E4AB8332EE9 /* Pods_neosoftTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_neosoftTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FED166186BC3556C19E3CEAD /* Pods-neosoftTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neosoftTest.debug.xcconfig"; path = "Target Support Files/Pods-neosoftTest/Pods-neosoftTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		DC1FF1332AEFB2DD004BFFFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CBBC343431D5054F087F003 /* Pods_neosoftTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC1FF15E2AF1479A004BFFFF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,11 +72,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B3689B089BA0967BA6CC7CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F03EEDD7BFFE2E4AB8332EE9 /* Pods_neosoftTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF44A859DD7BE21BBAAED4CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FED166186BC3556C19E3CEAD /* Pods-neosoftTest.debug.xcconfig */,
+				63F5A01ACAE2E74FA325E9DE /* Pods-neosoftTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DC1FF12D2AEFB2DD004BFFFF = {
 			isa = PBXGroup;
 			children = (
 				DC1FF1382AEFB2DD004BFFFF /* neosoftTest */,
+				DC1FF1622AF1479A004BFFFF /* neosoftTestTests */,
 				DC1FF1372AEFB2DD004BFFFF /* Products */,
+				BF44A859DD7BE21BBAAED4CE /* Pods */,
+				2B3689B089BA0967BA6CC7CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				DC1FF1362AEFB2DD004BFFFF /* neosoftTest.app */,
+				DC1FF1612AF1479A004BFFFF /* neosoftTestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +112,60 @@
 		DC1FF1382AEFB2DD004BFFFF /* neosoftTest */ = {
 			isa = PBXGroup;
 			children = (
+				DC1FF1502AEFD30A004BFFFF /* Models */,
+				DC1FF14F2AEFD30A004BFFFF /* Services */,
+				DC1FF14E2AEFD30A004BFFFF /* ViewModels */,
+				DC1FF14D2AEFD30A004BFFFF /* Views */,
 				DC1FF1392AEFB2DD004BFFFF /* AppDelegate.swift */,
 				DC1FF13B2AEFB2DD004BFFFF /* SceneDelegate.swift */,
-				DC1FF13D2AEFB2DD004BFFFF /* ViewController.swift */,
 				DC1FF13F2AEFB2DD004BFFFF /* Main.storyboard */,
 				DC1FF1422AEFB2DE004BFFFF /* Assets.xcassets */,
 				DC1FF1442AEFB2DE004BFFFF /* LaunchScreen.storyboard */,
 				DC1FF1472AEFB2DE004BFFFF /* Info.plist */,
 			);
 			path = neosoftTest;
+			sourceTree = "<group>";
+		};
+		DC1FF14D2AEFD30A004BFFFF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DC1FF1592AF10E15004BFFFF /* WeatherViewController.swift */,
+				DC1FF15B2AF10E67004BFFFF /* CityInputViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DC1FF14E2AEFD30A004BFFFF /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DC1FF1552AEFD352004BFFFF /* WeatherViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DC1FF14F2AEFD30A004BFFFF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DC1FF1532AEFD33B004BFFFF /* WeatherService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DC1FF1502AEFD30A004BFFFF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DC1FF1512AEFD329004BFFFF /* WeatherData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DC1FF1622AF1479A004BFFFF /* neosoftTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC1FF1632AF1479A004BFFFF /* neosoftTestTests.swift */,
+				DC1FF16A2AF147DE004BFFFF /* WeatherViewModelTests.swift */,
+			);
+			path = neosoftTestTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC1FF14A2AEFB2DE004BFFFF /* Build configuration list for PBXNativeTarget "neosoftTest" */;
 			buildPhases = (
+				36B31565761A61045F929F16 /* [CP] Check Pods Manifest.lock */,
 				DC1FF1322AEFB2DD004BFFFF /* Sources */,
 				DC1FF1332AEFB2DD004BFFFF /* Frameworks */,
 				DC1FF1342AEFB2DD004BFFFF /* Resources */,
+				F3563EA62128A95951D80C3F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -86,6 +189,24 @@
 			productName = neosoftTest;
 			productReference = DC1FF1362AEFB2DD004BFFFF /* neosoftTest.app */;
 			productType = "com.apple.product-type.application";
+		};
+		DC1FF1602AF1479A004BFFFF /* neosoftTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC1FF1672AF1479A004BFFFF /* Build configuration list for PBXNativeTarget "neosoftTestTests" */;
+			buildPhases = (
+				DC1FF15D2AF1479A004BFFFF /* Sources */,
+				DC1FF15E2AF1479A004BFFFF /* Frameworks */,
+				DC1FF15F2AF1479A004BFFFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC1FF1662AF1479A004BFFFF /* PBXTargetDependency */,
+			);
+			name = neosoftTestTests;
+			productName = neosoftTestTests;
+			productReference = DC1FF1612AF1479A004BFFFF /* neosoftTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -99,6 +220,10 @@
 				TargetAttributes = {
 					DC1FF1352AEFB2DD004BFFFF = {
 						CreatedOnToolsVersion = 15.0;
+					};
+					DC1FF1602AF1479A004BFFFF = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = DC1FF1352AEFB2DD004BFFFF;
 					};
 				};
 			};
@@ -116,6 +241,7 @@
 			projectRoot = "";
 			targets = (
 				DC1FF1352AEFB2DD004BFFFF /* neosoftTest */,
+				DC1FF1602AF1479A004BFFFF /* neosoftTestTests */,
 			);
 		};
 /* End PBXProject section */
@@ -131,20 +257,90 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DC1FF15F2AF1479A004BFFFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36B31565761A61045F929F16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-neosoftTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3563EA62128A95951D80C3F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-neosoftTest/Pods-neosoftTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-neosoftTest/Pods-neosoftTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-neosoftTest/Pods-neosoftTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DC1FF1322AEFB2DD004BFFFF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC1FF13E2AEFB2DD004BFFFF /* ViewController.swift in Sources */,
+				DC1FF1542AEFD33B004BFFFF /* WeatherService.swift in Sources */,
+				DC1FF1562AEFD352004BFFFF /* WeatherViewModel.swift in Sources */,
+				DC1FF15C2AF10E67004BFFFF /* CityInputViewController.swift in Sources */,
 				DC1FF13A2AEFB2DD004BFFFF /* AppDelegate.swift in Sources */,
+				DC1FF1522AEFD329004BFFFF /* WeatherData.swift in Sources */,
+				DC1FF15A2AF10E15004BFFFF /* WeatherViewController.swift in Sources */,
 				DC1FF13C2AEFB2DD004BFFFF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DC1FF15D2AF1479A004BFFFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1FF1642AF1479A004BFFFF /* neosoftTestTests.swift in Sources */,
+				DC1FF16B2AF147DE004BFFFF /* WeatherViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC1FF1662AF1479A004BFFFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC1FF1352AEFB2DD004BFFFF /* neosoftTest */;
+			targetProxy = DC1FF1652AF1479A004BFFFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		DC1FF13F2AEFB2DD004BFFFF /* Main.storyboard */ = {
@@ -287,18 +483,22 @@
 		};
 		DC1FF14B2AEFB2DE004BFFFF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FED166186BC3556C19E3CEAD /* Pods-neosoftTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = neosoftTest/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need your location for weather updates.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location for weather updates.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location for weather updates.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,18 +514,22 @@
 		};
 		DC1FF14C2AEFB2DE004BFFFF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63F5A01ACAE2E74FA325E9DE /* Pods-neosoftTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = neosoftTest/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need your location for weather updates.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location for weather updates.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location for weather updates.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -336,6 +540,40 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC1FF1682AF1479A004BFFFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neosoft.test.neosoftTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/neosoftTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/neosoftTest";
+			};
+			name = Debug;
+		};
+		DC1FF1692AF1479A004BFFFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neosoft.test.neosoftTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/neosoftTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/neosoftTest";
 			};
 			name = Release;
 		};
@@ -356,6 +594,15 @@
 			buildConfigurations = (
 				DC1FF14B2AEFB2DE004BFFFF /* Debug */,
 				DC1FF14C2AEFB2DE004BFFFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC1FF1672AF1479A004BFFFF /* Build configuration list for PBXNativeTarget "neosoftTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC1FF1682AF1479A004BFFFF /* Debug */,
+				DC1FF1692AF1479A004BFFFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
