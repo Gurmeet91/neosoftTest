@@ -18,10 +18,9 @@ class CityInputViewController: UIViewController {
     var weatherData: ((WeatherData?) -> Void)?
     
     @IBAction func searchWeatherForCity(_ sender: UIButton) {
-        // Check if the user has entered a city name.
+   
         guard let city = cityTextField.text else {
-            // If the city name is not entered, you might want to show an error message.
-            // You can display an alert or update the UI to inform the user to enter a city name.
+         
             return
         }
     
